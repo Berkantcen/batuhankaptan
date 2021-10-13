@@ -1,0 +1,57 @@
+.bk-hero {
+  background: url(/img/hero/hero-bg-2-min.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.bk-hero-title {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.bk-hero-btn {
+  width: 300px;
+  font-size: 2rem;
+}
+
+.return-top-btn {
+  position: fixed;
+  text-align: center;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 25px;
+  z-index: 100;
+}
+
+.fa-arrow-up {
+  padding-top: 10px;
+  color: black;
+  z-index: 100;
+}
+
+@media (max-width: 1200px) {
+  .bk-hero-title {
+    font-size: 3rem;
+  }
+
+  .bk-hero-btn {
+    width: 250px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bk-hero-title {
+    font-size: 2rem;
+  }
+  .bk-hero-btn {
+    width: 200px;
+    font-size: 1.5rem;
+  }
+}
